@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Session 2: HTML5</title>
+</head>
+<body>
+	<h1 style="text-align: center;"">Session 2: HTML5</h1>
+	<hr>
+	<h2 style="text-align: center;">Assignment-2</h2>
+	<h2 style="text-align: center;">Design a HTML form</h2>
+	<style>
+		.size{
+			width: 500px;
+		}
+	</style>
+
+	<form class="size">
+		<fieldset>
+			<legend>Your Details</legend>
+			<label for="name">Name:</label>
+			<input type="text" name="username"><br>
+			<label for="email">Email:</label>
+			<input type="email" name="email">
+		</fieldset>
+
+		<fieldset>
+			<legend>Your Review</legend>
+			<label for="hear">How did you hear from us:</label>
+			<select name="hear-us">
+				<option value="google" selected="google">Google</option>
+				<option value="naukri">Naukri</option>
+				<option value="advertisements">Advertisements</option>
+			</select>
+			<br>
+			<br>
+			<label for="visit">Would you visit again?</label>
+			<input type="radio" name="yes">Yes
+			<input type="radio" name="no">No
+			<input type="radio" name="maybe">May Be
+			<br>
+			<br>
+			<label for="comments">Comments</label><br>
+			<textarea name="comments" cols="30" rows="10"></textarea>
+			<br>
+			<input type="checkbox" name="checkbox" checked="checkbox">
+			<label for="checkbox">Sign me up for email updates</label><br>
+			<br>
+			<input type="button" name="button" value="Submit">
+			<input type="reset">
+		</fieldset>
+	</form>
+</body>
+</html>
