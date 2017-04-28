@@ -1,0 +1,28 @@
+h1{
+	text-align: center;
+	background-color: gray;
+	color: white;
+}
+h2{
+	text-align: center;
+}
+
+.box h1{
+	background-color: #464646;
+	color: #464646;
+}
+.wrapper{
+
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+.image{
+	/*height: 5px;*/
+	position: relative;
+}
+
+.logo{
+	display: inline-block;
+    vertical-align: middle;
+}
