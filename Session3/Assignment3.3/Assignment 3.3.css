@@ -1,0 +1,73 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font: 13px/20px "Lucida Grande", Tahoma, Verdana, sans-serif;
+	/*background-color: #001f3f;*/
+}
+h2{
+	color: #657B8A;
+}
+.wrap{
+	width: 550px;
+	height: 800px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 12px;
+	border-radius: 5px;
+	color: #fff;
+	margin-bottom: 80px;
+}
+
+.wrap{
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('bg.jpg');
+}
+
+h4{
+	margin-top: 5px;
+}
+
+input[type=text], [type=email]{
+	width: 320px;
+	height: 27px;
+	border-radius: 5px;
+	border: 1px solid #A0C2DD;
+	padding-left: 10px;
+}
+
+.every{
+	background-color: #A0C2DD;
+	padding: 6px;
+	border-radius: 5px;
+	border: 1px solid #A0C2DD;
+	margin-bottom: 8px;
+	opacity: 0.6;
+	color: #000;
+	font-size: 16px;
+}
+
+label{
+	display: inline-block;
+	width: 130px;
+}
+
+.every img{
+	width: 30px;
+	height: 15px;
+}
+
+input[type=radio]{
+	padding-right: 0px;
+}
+
+.btn-class{
+	margin-top: 20px;
+	margin-left: 230px;
+	padding: 8px 30px;
+	border-radius: 15px;
+	background-color: #001f3f;
+	color: #fff;
+	border: none;
+}
