@@ -1,0 +1,47 @@
+.linear-grad{
+	width: 500px;
+	height: 100px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 90px;
+	color: #ffffff;
+
+	background: -webkit-linear-gradient(left, red , yellow);
+    background: -o-linear-gradient(right, red, yellow);
+    background: -moz-linear-gradient(right, red, yellow);
+    background: linear-gradient(right, red , yellow);
+}
+
+.radial-grad{
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 190px;
+	color: #ffffff;
+	border-radius: 100px;
+	color: #000000;
+
+	background: red;
+  	background: -webkit-radial-gradient(red, yellow, green);
+  	background: -o-radial-gradient(red, yellow, green);
+  	background: -moz-radial-gradient(red, yellow, green);
+  	background: radial-gradient(red, yellow, green);
+}
+
+.radial-ellipse{
+	width: 200px;
+	height: 100px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 90px;
+	color: #ffffff;
+	border-radius: 100px / 50px;
+	color: #000000;
+
+	background: red;
+  	background: -webkit-radial-gradient(red, yellow, green);
+  	background: -o-radial-gradient(red, yellow, green);
+  	background: -moz-radial-gradient(red, yellow, green);
+  	background: radial-gradient(red, yellow, green);
+}

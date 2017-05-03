@@ -1,0 +1,23 @@
+body{
+	margin: 0px;
+	padding: 0 px;
+	
+}
+
+.wrap{
+	width: 600px;
+	height: 200px;
+	margin: auto;
+	border: 10 solid #000;
+	border-radius: 6px;
+	background-color: #D05A00;
+	padding: 15px;
+}
+
+.wrap .container{
+	background-color: #29241E;
+	border-radius: 15px;
+	padding: 3px 17px;
+	margin: 25px;
+	color: #fff;
+}
