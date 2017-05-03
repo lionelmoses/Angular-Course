@@ -1,0 +1,42 @@
+/*body{
+  margin: 0;
+  padding: 0;
+}*/
+
+h2{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.speech-bubble{
+  width: 200px;
+  background-color: #85144b;
+  border: 2px solid #85144b;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  color: #fff;
+  margin-left: 550px;
+}
+
+.speech-bubble .arrow {
+  border-style: solid;
+  position: absolute;
+}
+
+.bottom{
+  border-color: #85144b transparent transparent transparent;
+  border-width: 18px 18px 0 18px;
+  bottom: -18px;
+}
+
+.bottom:after {
+    border-color: #85144b transparent transparent transparent;
+    border-style: solid;
+    border-width: 17px 17px 0px 17px;
+    bottom: 1px;
+    content: "";
+    position: absolute;
+    left: -17px;
+}
